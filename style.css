@@ -237,4 +237,7 @@ footer > p{
     .aside-carousel{
         height: auto;
     }
+    .card{
+        margin-bottom: 20px;
+    }
 }

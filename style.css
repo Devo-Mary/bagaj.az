@@ -26,7 +26,7 @@ a:hover {
     /* font-family: 'Kelly Slab', cursive; */
     color: #747070;
 }
-.aside-video{
+.aside-carousel{
     z-index: -1;
     height: calc(100vh - 88px); 
     top: 88px;
@@ -234,5 +234,7 @@ footer > p{
     margin-bottom: 0;
 }
 @media (max-width:576px){
-    
+    .aside-carousel{
+        height: auto;
+    }
 }
